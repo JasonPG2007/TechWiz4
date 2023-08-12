@@ -19,7 +19,7 @@ fetch("./productsCategories.json")
                         <ul>
                             <li><a href="#"><i class="fa-solid fa-heart"></i></a></li>
                             <li><a href="#"><i class="fa-solid fa-eye"></i></a></li>
-                            <li><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                            <li><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
                         </ul>
                     </div>
                 </div>

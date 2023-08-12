@@ -245,7 +245,7 @@ a {
   margin-bottom: 10px;
 }
 .viewProducts .product .rating ul li span {
-  font-size: 25px;
+  font-size: 20px;
 }
 .viewProducts .product .rating ul li i {
   color: var(--color-yellow);
@@ -330,4 +330,24 @@ a {
 .tag li a:hover {
   background-color: var(--color-green);
   color: white;
+}
+@media only screen and (max-width: 46.1875em) {
+  .wrapper {
+    margin: unset;
+  }
+  .introduce {
+    display: none;
+  }
+  .viewProducts {
+    display: unset;
+  }
+  .viewProducts .product {
+    width: 557%;
+  }
+  .viewProducts .product .image img {
+    position: unset;
+    object-fit: cover;
+  }
+  .viewProducts .products_add_action ul li a i {
+  }
 }
